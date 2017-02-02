@@ -19,6 +19,7 @@ public class App
     		while (resul.next()) {
     			System.out.println(resul.getInt("dept_no")+" "+resul.getString(2)+" "+resul.getString("loc"));
     		}
+    		System.out.println( "Fin de lista" );
     		resul.close();
     		orden.close();
     		con.close();
